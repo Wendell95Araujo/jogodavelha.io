@@ -1,0 +1,74 @@
+.titulo{
+    width: 603px;
+    text-align: center;
+    margin: 10px;
+}
+
+#titulo-principal{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.nomes {
+    margin: 0 10px;
+}
+
+input{
+    width: 150px;
+    border: solid 1px;
+    border-radius: 3px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 5px;
+}
+
+#jogo{
+    width:603px;
+    height:603px;
+    border:solid 3px;
+    margin: 10px ;
+}
+ 
+.linha{
+    height:200px;
+    border-bottom:solid 1px;
+}
+ 
+.casa{
+    width:200px;
+    height:100%;
+    border-right:solid 1px;
+    float:left;
+}
+
+#resultado{
+    background-color: #C8C8C8;
+    font-weight: bold;
+    font-size: 30px;
+    width:603px;
+    text-align: center;
+    padding: auto;
+}
+
+.imagem {
+    height: 21px;
+    vertical-align: middle;
+    display: inline-block;
+}
+#imagem1{
+    border: solid 1px;
+}
+
+.placar{
+    display: inline;
+    width: 50px;
+    vertical-align: middle;
+    padding: 1px 2px;
+    border: solid 1px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+#leitor{
+    display: none;
+}
