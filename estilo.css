@@ -12,6 +12,12 @@
 #titulo-principal{
     font-size: 20px;
     font-weight: bold;
+    display: inline-block;
+    margin: 0 20px;
+    vertical-align: middle;
+}
+.subTitulo{
+    margin: 20px;
 }
 
 .nomes {
