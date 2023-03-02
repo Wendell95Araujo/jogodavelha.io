@@ -48,7 +48,7 @@ function verificarFimDeJogo(){
             $("#placar2").html(placar2);
     	}
         $("#resultado").html("<h1>" + jogador + " venceu! </h1>");
-        $("#leitor").val(jogador + " venceu!");
+        $("#leitor").val(jogador + " venceu! Placar está " + placar1 + " para " + jogador1 + " e " + placar2 + "para " + jogador2);
         $(".casa").off("click");
     }
 }
