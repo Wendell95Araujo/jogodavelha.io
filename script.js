@@ -19,9 +19,6 @@ function casasIguais(a, b, c){
             vencedor = "1";
         else
             vencedor = "2";
-
-        $("#imagem1").css("border", "solid 0px");
-        $("#imagem2").css("border", "solid 0px");
         return true;
     }
     else{
