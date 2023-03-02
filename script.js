@@ -80,6 +80,7 @@ $(".casa").click(function(){
 $("#reiniciar").click(function(){
     $(".casa").css("background", "none");
     $("#resultado").html("");
+    verificarvez();
     empate = 0;
     $(".casa").on("click",function(){
         jogador1 = $("#jogador1").val().toUpperCase();

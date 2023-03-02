@@ -49,6 +49,10 @@
             var texto = $("#leitor").val();
             responsiveVoice.speak($("#leitor").val(), "Brazilian Portuguese Female");
         });
+        $(document).on('click', '#reiniciar', function(){
+            var texto = $("#leitor").val();
+            responsiveVoice.speak($("#leitor").val(), "Brazilian Portuguese Female");
+        });
         $(document).on('change', '#jogador1', function(){
             var texto = "Jogador 1 será " + $("#jogador1").val();
             responsiveVoice.speak(texto, "Brazilian Portuguese Female");
@@ -56,7 +60,7 @@
         $(document).on('change', '#jogador2', function(){
             var texto = "Jogador 2 será " + $("#jogador2").val();
             responsiveVoice.speak(texto, "Brazilian Portuguese Female");
-            
+
             if($("#jogador1").val() !== "" && $("#jogador2").val() !== ""){
                 var texto = "Você começa " + $("#jogador1").val();
              responsiveVoice.speak(texto, "Brazilian Portuguese Female");   
