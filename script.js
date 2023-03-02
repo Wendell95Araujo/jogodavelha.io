@@ -1,4 +1,4 @@
-(function(){
+$(function(){
 var vez = 1;
 var vencedor = "";
 var jogador = "";
