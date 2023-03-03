@@ -56,9 +56,16 @@ input{
     background-color: #C8C8C8;
     font-weight: bold;
     font-size: 30px;
-    width:603px;
+    width: 613px;
+    margin: 10px auto;
     text-align: center;
     padding: auto;
+}
+#resultado h1{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .imagem {
